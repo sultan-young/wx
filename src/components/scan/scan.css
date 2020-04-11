@@ -1,0 +1,12 @@
+#scan{
+    display: inline;
+    float: right;
+    font-size: 20px;
+    
+}
+
+.am-navbar{
+    height: auto !important;
+    background-color: transparent !important;
+    color: #000 !important;
+}

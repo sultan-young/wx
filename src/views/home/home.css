@@ -1,0 +1,20 @@
+#home{
+    height: 100%;
+    width: 100vw;
+    background-image: url("/images/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    /* position: absolute; */
+    /* top: 0px; */
+
+}
+
+.btn-box{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    bottom: 10%;
+    justify-content: space-evenly;
+}
+

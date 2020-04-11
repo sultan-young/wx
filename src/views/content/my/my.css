@@ -1,0 +1,43 @@
+.my{
+    background: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+#my-box{
+    height: 100%;
+    background-color: #eee;
+}
+.header-photo-box{
+    border-radius: 5px;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+}
+
+.header-photo{
+    height: 60px;
+}
+
+
+dl{
+    overflow: hidden;
+    height: 60px;
+
+}
+dt{
+    float: left;
+    height: 60px;
+}
+dd{
+    float: left;
+    height: 60px;
+}
+.netname{
+    height: 30px;
+    font-size: 20px;
+    line-height:30px;
+}
+.username{
+    height: 30px;
+    line-height: 30px;
+}

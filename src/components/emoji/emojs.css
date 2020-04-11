@@ -1,0 +1,19 @@
+.emj-box{
+    background-color: #ddd;
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.emg{
+    list-style: none;
+    width: 12.5%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2px;
+}

@@ -1,0 +1,24 @@
+
+
+
+.address-user-item{
+    list-style: none;
+    display: flex;
+    padding:10px 20px;
+}
+.address-user-item-photo{
+    width: 50px;
+    height: 50px;
+}
+.address-user-item-photo>img{
+    width: 50px;
+    height: 50px;
+}
+
+.address-user-item-netname{
+    border-bottom: 1px solid #eee;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

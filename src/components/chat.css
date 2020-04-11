@@ -1,0 +1,95 @@
+#chat{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.chat-header{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 10px 10px;
+    height: 2.5%;
+}   
+
+.chat-box{
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 50px;
+    height: 94.5%;
+    overflow: auto;
+}
+
+.chat-footer{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    height:  3%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.voice{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-input{
+    flex: 7;
+    display: flex;
+}
+.chat-input>input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+    align-self: center;
+}
+.chat-more-box{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.chat-expression{
+    font-size: 25px;
+}
+.chat-more{
+    font-size: 20px;
+    align-self: center;
+    margin-top: -3px;
+}
+.chat-box-item-get{
+    display: flex;
+    padding: 10px;
+}
+.chat-box-item-send{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.chat-photo-box{
+    width: 50px;
+    overflow: hidden;
+    height: 50px;
+}
+.chat-photo-box>img{
+    width: 100%;
+}
+.chat-info-box{
+    margin: 10px;
+}
+.chat-info-name{
+    color: #999;
+    font-size: 12px;
+}
+.chat-info-text{
+    background-color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius:5px;
+}
+

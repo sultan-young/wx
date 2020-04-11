@@ -1,0 +1,25 @@
+.template-box{
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+}
+.template-box-i{
+    background-color: orange;
+    float: left;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.template-box-i>i{
+    color: white;
+    font-size: 20px;
+}
+.template-box>span{
+    border-bottom: 1px solid #eee;
+    flex: 1;
+    margin-left: 10px;
+    line-height: 50px;
+    display: block;
+    height: 50px;
+}

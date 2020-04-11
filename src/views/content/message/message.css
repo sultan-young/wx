@@ -1,0 +1,64 @@
+.message-box{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+.message-item{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    padding:5px 20px 5px 20px;
+    display: flex;
+    
+}
+.message-item:hover{
+    background-color: #eee;
+}
+
+.photo-box-wrap{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    position: relative;
+
+}
+.photo-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.photo-box>img{
+    width: 100%;
+}
+
+.msg-box{
+    width: 100%;
+    border-bottom: 1px #ccc solid;
+}
+
+.msg-box:hover{
+    border:none;
+}
+
+.chatname{
+    font-size: 15px;
+    font-weight: 550;
+    height: 50%;
+}
+
+.lastmsg{
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    z-index: 10;
+    top: -5px;
+    right: -5px;
+    border-radius: 50%;
+}

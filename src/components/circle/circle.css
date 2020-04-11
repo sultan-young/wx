@@ -1,0 +1,8 @@
+.circle-box-header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    background-color: #eee;
+}

@@ -1,0 +1,14 @@
+#login{
+    padding: 10px;
+}
+
+.loginform{
+    margin-top: 20px;
+}
+
+.login-link{
+    display: block;
+    text-align: center;
+    color: #aaa;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+#register{
+    padding: 10px;
+}
+
+.registerform{
+    margin-top: 20px;
+}
+
+.register-link{
+    display: block;
+    text-align: center;
+    color: #aaa;
+    margin-top: 20px;
+}
+.register-header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1PX solid #ddd;
+}
+.register-header>span{
+    padding: 2px 0;
+    width: 85px;
+    font-size: 17px;
+}
+.register-header .am-flexbox-item{
+    height: 80px;
+    width: 80px;
+}
