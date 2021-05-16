@@ -78,7 +78,7 @@ class Chat extends Component {
                     this.props.messageList[this.state.index]["msg"].map(item => (
                        <div key={item.time} className={item.type==="get"?"chat-box-item-get" : "chat-box-item-send"}>
                            <div className="chat-photo-box">
-                               <img alt="" src={`http://106.13.118.135:50000/uploads/header/${item.type==="get"?this.props.chatuserinfo.to:this.props.chatuserinfo.from}.jpg`}></img>
+                               <img alt="" src={`http://127.0.0.1:5001/uploads/header/${item.type==="get"?this.props.chatuserinfo.to:this.props.chatuserinfo.from}.jpg`}></img>
                            </div>
                            <div className="chat-info-box">
                                {/* <div className="chat-info-name">{listData.netname}</div> */}

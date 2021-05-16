@@ -21,7 +21,7 @@ class Login extends Component {
         localStorage.setItem("login",true)
         axios.get(`/users/getuserinfo?username=${this.autoFocusInst.props.value}`)
         .then(res=>{
-          this.props.setuserinfo(this.autoFocusInst.props.value,res.data.netname,`http://106.13.118.135:50000/uploads/header/${this.autoFocusInst.props.value}.jpg`)
+          this.props.setuserinfo(this.autoFocusInst.props.value,res.data.netname,`http://127.0.0.1:5001/uploads/header/${this.autoFocusInst.props.value}.jpg`)
           Toast.success('登录成功', 1,()=>{
             this.props.history.push("/index")
           })

@@ -97,7 +97,7 @@ function AddUser(props) {
                     <div className="adduser-box" key={item.username}>
                         <div className="adduser-item-header">
                                 <div className="adduser-item-photo">
-                                  <img alt="" src={`http://106.13.118.135:50000/uploads/header/${item.username}.jpg`}/>
+                                  <img alt="" src={`http://127.0.0.1:5001/uploads/header/${item.username}.jpg`}/>
                                 </div>
                                 <div className="adduer-item-name">
                                     <span>用户名：{item.netname}</span>
@@ -121,7 +121,7 @@ function AddUser(props) {
                     <div className="adduser-box" key={item.username}>
                         <div className="adduser-item-header">
                                 <div className="adduser-item-photo">
-                                  <img alt="" src={`http://106.13.118.135:50000/uploads/header/${item.username}.jpg`}/>
+                                  <img alt="" src={`http://127.0.0.1:5001/uploads/header/${item.username}.jpg`}/>
                                 </div>
                                 <div className="adduer-item-name">
                                     <span>微信号：{item.username}</span>

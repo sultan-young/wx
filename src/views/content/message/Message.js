@@ -26,7 +26,7 @@ import './message.css'
                         >
                             <div className="photo-box-wrap">
                                 <div className="photo-box" >
-                                    <img src={"http://106.13.118.135:50000/uploads/header/"+item.username+".jpg"} alt="图片"/>
+                                    <img src={"http://127.0.0.1:5001/uploads/header/"+item.username+".jpg"} alt="图片"/>
                                     {
                                         item.unread !== 0 ? 
                                         <div className="dot"></div> 
